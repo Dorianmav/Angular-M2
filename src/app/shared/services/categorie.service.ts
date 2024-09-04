@@ -27,6 +27,12 @@ export class CategorieService {
     });
   }
 
+  getCategorieById(id: number) {
+    let temp = this.categories.find((c) => c.id === id);
+    console.log(temp);
+    return temp;
+  }
+
   goToQuizCategory(categoryId: number) {
     this.router.navigate([`categorie/${categoryId}/quizz`]);
   }
