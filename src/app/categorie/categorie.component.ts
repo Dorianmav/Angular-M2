@@ -9,6 +9,8 @@ import {CategorieService} from "../shared/services/categorie.service";
 export class CategorieComponent implements OnInit {
 
   categories: any[] = this.categoryService.categories;
+  filteredCategories: any[] = this.categories;
+  searchCategory = '';
 
   constructor(private categoryService: CategorieService) {
   }
@@ -20,5 +22,17 @@ export class CategorieComponent implements OnInit {
 
   goToQuizCategory(categoryId: number) {
     this.categoryService.goToQuizCategory(categoryId);
+  }
+
+  searchCategoryByName() {
+    console.log(this.searchCategory)
+    this.filteredCategories = this.categories.filter(
+      (category) => category.categoryLabel.toLowerCase().includes(this.searchCategory.toLowerCase())
+    );
+  }
+
+  clearSearch() {
+    this.searchCategory = '';
+    this.filteredCategories = this.categories;
   }
 }

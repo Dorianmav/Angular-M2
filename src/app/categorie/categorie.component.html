@@ -1,9 +1,14 @@
 <section class="categories p-4">
-  <input type="text" id="catName" name="catName" class="w-full p-2 border rounded mb-4"
-         placeholder="Nom de la catégorie">
+  <form>
+    <input type="text" id="catName" name="catName" class="w-full p-2 border rounded mb-4"
+           placeholder="Nom de la catégorie" [(ngModel)]="searchCategory">
+    <button class="p-2 bg-blue-500 text-white rounded hover:bg-blue-600" (click)="searchCategoryByName()">Rechercher</button>
+    <!-- clear btn -->
+    <button class="p-2 bg-red-500 text-white rounded hover:bg-red-600" (click)="clearSearch()">Effacer</button>
+  </form>
 
   <div class="grid grid-cols-2 gap-4">
-    <button *ngFor="let categorie of categories"
+    <button *ngFor="let categorie of filteredCategories"
             class="p-2 bg-blue-500 text-white rounded hover:bg-blue-600"
             (click)="goToQuizCategory(categorie.id)"
     >
