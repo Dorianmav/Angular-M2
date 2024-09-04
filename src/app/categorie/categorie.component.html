@@ -1,15 +1,32 @@
 <section class="categories p-4">
-  <form>
-    <input type="text" id="catName" name="catName" class="w-full p-2 border rounded mb-4"
-           placeholder="Nom de la catégorie" [(ngModel)]="searchCategory">
-    <button class="p-2 bg-blue-500 text-white rounded hover:bg-blue-600" (click)="searchCategoryByName()">Rechercher</button>
-    <!-- clear btn -->
-    <button class="p-2 bg-red-500 text-white rounded hover:bg-red-600" (click)="clearSearch()">Effacer</button>
+  <form class="flex items-center space-x-2 mb-4">
+    <input
+      type="text"
+      id="catName"
+      name="catName"
+      class="flex-grow p-2 border rounded"
+      placeholder="Nom de la catégorie"
+      [(ngModel)]="searchCategory"
+    >
+    <button
+      type="button"
+      class="p-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+      (click)="searchCategoryByName()"
+    >
+      Rechercher
+    </button>
+    <button
+      type="button"
+      class="p-2 bg-red-500 text-white rounded hover:bg-red-600"
+      (click)="clearSearch()"
+    >
+      Effacer
+    </button>
   </form>
 
-  <div class="grid grid-cols-2 gap-4">
+  <div class="flex flex-wrap gap-4 mt-4">
     <button *ngFor="let categorie of filteredCategories"
-            class="p-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            class="quiz-card"
             (click)="goToQuizCategory(categorie.id)"
     >
       {{ categorie.categoryLabel }}

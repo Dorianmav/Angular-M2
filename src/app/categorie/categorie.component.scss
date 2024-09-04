@@ -1,0 +1,15 @@
+.quiz-card {
+  @apply p-4 bg-white shadow-lg rounded-lg border border-gray-200 transition-transform transform hover:scale-105;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  aspect-ratio: 1;
+  width: 10rem;
+
+  &:hover {
+    @apply bg-gray-100;
+  }
+}
