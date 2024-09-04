@@ -9,6 +9,7 @@ import {CategorieService} from "../shared/services/categorie.service";
 export class CategorieComponent implements OnInit {
 
   categories: any[] = this.categoryService.categories;
+  selectedCategory: any;
   filteredCategories: any[] = this.categories;
   searchCategory = '';
 
@@ -17,11 +18,12 @@ export class CategorieComponent implements OnInit {
 
   ngOnInit() {
     this.categoryService.getCategories();
-
+    console.log(this.filteredCategories);
   }
 
   goToQuizCategory(categoryId: number) {
     this.categoryService.goToQuizCategory(categoryId);
+    //this.selectedCategory = this.categoryService.getCategorieById(categoryId);
   }
 
   searchCategoryByName() {

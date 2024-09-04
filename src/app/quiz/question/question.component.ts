@@ -7,7 +7,6 @@ import { QuizService } from "../../shared/services/quiz.service";
   styleUrls: ['./question.component.scss']
 })
 export class QuestionComponent implements OnInit {
-  @Input() categoryId: number = 0;
   quizContent: any[] = this.quizService.quizContent;
 
   constructor(private quizService: QuizService) { }

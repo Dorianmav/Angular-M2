@@ -12,8 +12,8 @@ export class QuizComponent implements OnInit {
   isQuizFinished = this.quizService.isQuizFinished;
   playerName = '';
   @Input() category: any;
+  categoryName: any ;
   categoryId: number = 0;
-  categorieName = "";
 
   constructor(
     private quizService: QuizService,
@@ -25,12 +25,12 @@ export class QuizComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.subscribe(params => {
       this.quizService.playerName = params['playerName'];
-      this.quizService.categoryId = params['categoryId'];
       this.playerName = params['playerName'];
-      this.categoryId = params['categoryId'];
+      // this.quizService.categoryId = params['categoryId'];
+      // this.categoryId = params['categoryId'];
     });
 
-    this.categorieName = this.categorieService.getCategorieById(this.categoryId)?.categoryLabel || '';
+    // this.categoryName = this.categorieService.getCategorieById(this.categoryId);
   }
 
   goToResultPage() {
