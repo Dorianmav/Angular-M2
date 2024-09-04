@@ -6,7 +6,15 @@
     },
     {
       "id": "2",
-      "categoryLabel": "lorem iptsum"
+      "categoryLabel": "Web Development"
+    },
+    {
+      "id": "3",
+      "categoryLabel": "Data Structures"
+    },
+    {
+      "id": "4",
+      "categoryLabel": "Networking"
     }
   ],
   "questions": [
@@ -27,103 +35,48 @@
     },
     {
       "id": "4",
-      "categoryId": "1",
-      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
+      "categoryId": "2",
+      "questionLabel": "What is the difference between HTML and CSS?"
     },
     {
       "id": "5",
-      "categoryId": "1",
-      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
+      "categoryId": "2",
+      "questionLabel": "Explain the concept of responsive design."
     },
     {
       "id": "6",
-      "categoryId": "1",
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
+      "categoryId": "2",
+      "questionLabel": "What is JavaScript, and how is it used in web development?"
     },
     {
       "id": "7",
-      "categoryId": "1",
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
+      "categoryId": "3",
+      "questionLabel": "What is a linked list, and how does it differ from an array?"
     },
     {
       "id": "8",
-      "categoryId": "1",
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
+      "categoryId": "3",
+      "questionLabel": "Explain the concept of a binary tree."
     },
     {
       "id": "9",
-      "categoryId": "1",
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
+      "categoryId": "3",
+      "questionLabel": "What is a hash table, and how is it used?"
     },
     {
       "id": "10",
-      "categoryId": "1",
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
+      "categoryId": "4",
+      "questionLabel": "What is the OSI model in networking?"
     },
     {
       "id": "11",
-      "categoryId": "1",
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
+      "categoryId": "4",
+      "questionLabel": "Explain the difference between TCP and UDP."
     },
     {
       "id": "12",
-      "categoryId": "1",
-      "questionLabel": "What is a service in Angular, and when should you use it?"
-    },
-    {
-      "id": "13",
-      "categoryId": "1",
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
-    },
-    {
-      "id": "14",
-      "categoryId": "1",
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
-    },
-    {
-      "id": "15",
-      "categoryId": "1",
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
-    },
-    {
-      "id": "16",
-      "categoryId": "1",
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
-    },
-    {
-      "id": "17",
-      "categoryId": "1",
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
-    },
-    {
-      "id": "18",
-      "categoryId": "1",
-      "questionLabel": "How can you handle HTTP requests in Angular?"
-    },
-    {
-      "id": "19",
-      "categoryId": "1",
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
-    },
-    {
-      "id": "20",
-      "categoryId": "1",
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
-    },
-    {
-      "id": "21",
-      "categoryId": "2",
-      "questionLabel": "What is Lorem Ipsum?"
-    },
-    {
-      "id": "22",
-      "categoryId": "2",
-      "questionLabel": "Where does it come from?"
-    },
-    {
-      "id": "23",
-      "categoryId": "2",
-      "questionLabel": "Why do we use it?"
+      "categoryId": "4",
+      "questionLabel": "What is a subnet mask, and why is it important?"
     }
   ],
   "answers": [
@@ -135,39 +88,15 @@
     },
     {
       "questionId": 1,
-      "answerLabel": "A style in Angular",
-      "isCorrect": false,
-      "id": "18c0"
-    },
-    {
-      "questionId": 1,
       "answerLabel": "A service for handling HTTP requests",
       "isCorrect": false,
       "id": "0cee"
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A routing configuration",
-      "isCorrect": false,
-      "id": "f599"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
       "isCorrect": true,
       "id": "c144"
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is a component in Angular.",
-      "isCorrect": false,
-      "id": "50f3"
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is used for data binding in Angular.",
-      "isCorrect": false,
-      "id": "25d7"
     },
     {
       "questionId": 2,
@@ -183,477 +112,117 @@
     },
     {
       "questionId": 3,
-      "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
-      "isCorrect": false,
-      "id": "2877"
-    },
-    {
-      "questionId": 3,
       "answerLabel": "You can create a new Angular application using pure JavaScript.",
       "isCorrect": false,
       "id": "d490"
     },
     {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application using Python.",
-      "isCorrect": false,
-      "id": "80b9"
+      "questionId": 4,
+      "answerLabel": "HTML is used for structuring content, while CSS is used for styling it.",
+      "isCorrect": true,
+      "id": "a1b2"
     },
     {
       "questionId": 4,
-      "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
-      "isCorrect": true,
-      "id": "908a"
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is used for creating components.",
+      "answerLabel": "CSS is used for structuring content, while HTML is used for styling it.",
       "isCorrect": false,
-      "id": "88cb"
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is a routing feature.",
-      "isCorrect": false,
-      "id": "d24d"
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is only available for services.",
-      "isCorrect": false,
-      "id": "47a9"
+      "id": "b2a1"
     },
     {
       "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
+      "answerLabel": "Responsive design ensures a website looks good on all devices by using flexible layouts.",
       "isCorrect": true,
-      "id": "bd32"
+      "id": "b2c3"
     },
     {
       "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
+      "answerLabel": "Responsive design is only about using media queries.",
       "isCorrect": false,
-      "id": "f53c"
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
-      "isCorrect": false,
-      "id": "7ff9"
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for creating services.",
-      "isCorrect": false,
-      "id": "2a00"
+      "id": "c3b2"
     },
     {
       "questionId": 6,
-      "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
+      "answerLabel": "JavaScript is a programming language used to create dynamic and interactive effects on web pages.",
       "isCorrect": true,
-      "id": "c2d9"
+      "id": "c3d4"
     },
     {
       "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining component styles.",
+      "answerLabel": "JavaScript is used for styling web pages.",
       "isCorrect": false,
-      "id": "44f3"
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining routes.",
-      "isCorrect": false,
-      "id": "3b96"
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for dependency injection.",
-      "isCorrect": false,
-      "id": "5f2b"
+      "id": "d4c3"
     },
     {
       "questionId": 7,
-      "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
+      "answerLabel": "A linked list is a linear data structure where elements are linked using pointers, unlike arrays which have contiguous memory locations.",
       "isCorrect": true,
-      "id": "6425"
+      "id": "d4e5"
     },
     {
       "questionId": 7,
-      "answerLabel": "Angular CLI is a component in Angular applications.",
+      "answerLabel": "A linked list is a type of array.",
       "isCorrect": false,
-      "id": "8744"
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a directive in Angular applications.",
-      "isCorrect": false,
-      "id": "63e7"
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a service for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "0c7d"
+      "id": "e5d4"
     },
     {
       "questionId": 8,
-      "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
+      "answerLabel": "A binary tree is a tree data structure where each node has at most two children.",
       "isCorrect": true,
-      "id": "6c72"
+      "id": "e5f6"
     },
     {
       "questionId": 8,
-      "answerLabel": "A directive in Angular is a component.",
+      "answerLabel": "A binary tree is a linear data structure.",
       "isCorrect": false,
-      "id": "f35f"
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a service.",
-      "isCorrect": false,
-      "id": "9e0e"
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a module.",
-      "isCorrect": false,
-      "id": "37a8"
+      "id": "f6e5"
     },
     {
       "questionId": 9,
-      "answerLabel": "The Angular router is a library for navigating between views and components.",
+      "answerLabel": "A hash table is a data structure that maps keys to values for efficient lookup.",
       "isCorrect": true,
-      "id": "d8f1"
+      "id": "f6g7"
     },
     {
       "questionId": 9,
-      "answerLabel": "The Angular router is used for handling HTTP requests.",
+      "answerLabel": "A hash table is used for sorting data.",
       "isCorrect": false,
-      "id": "0e18"
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for data binding in Angular.",
-      "isCorrect": false,
-      "id": "055b"
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for event binding in Angular.",
-      "isCorrect": false,
-      "id": "2ad6"
+      "id": "g7f6"
     },
     {
       "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
+      "answerLabel": "The OSI model is a conceptual framework used to understand network interactions in seven layers.",
       "isCorrect": true,
-      "id": "da96"
+      "id": "g7h8"
     },
     {
       "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
+      "answerLabel": "The OSI model is a protocol used for internet connections.",
       "isCorrect": false,
-      "id": "9e2c"
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
-      "isCorrect": false,
-      "id": "da88"
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is used for data binding.",
-      "isCorrect": false,
-      "id": "4175"
+      "id": "h8g7"
     },
     {
       "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can be achieved through input properties and output events.",
+      "answerLabel": "TCP is connection-oriented, while UDP is connectionless.",
       "isCorrect": true,
-      "id": "76f4"
+      "id": "h8i9"
     },
     {
       "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular is not possible.",
+      "answerLabel": "TCP is faster than UDP because it doesn't require a connection.",
       "isCorrect": false,
-      "id": "53b6"
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using services.",
-      "isCorrect": false,
-      "id": "332c"
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using event binding.",
-      "isCorrect": false,
-      "id": "0feb"
+      "id": "i9h8"
     },
     {
       "questionId": 12,
-      "answerLabel": "A service in Angular is a class that provides specific functionality and can be injected into components and other services.",
+      "answerLabel": "A subnet mask divides an IP address into network and host parts, crucial for routing.",
       "isCorrect": true,
-      "id": "feb8"
+      "id": "i9j0"
     },
     {
       "questionId": 12,
-      "answerLabel": "A service in Angular is a type of component.",
+      "answerLabel": "A subnet mask is used to encrypt data.",
       "isCorrect": false,
-      "id": "4452"
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of directive.",
-      "isCorrect": false,
-      "id": "7eb1"
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of module.",
-      "isCorrect": false,
-      "id": "0618"
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for iterating over a list of items and rendering them in the template.",
-      "isCorrect": true,
-      "id": "5f1d"
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for defining routes.",
-      "isCorrect": false,
-      "id": "4b12"
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "ca77"
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for event binding.",
-      "isCorrect": false,
-      "id": "77be"
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used to organize the application into cohesive blocks of functionality.",
-      "isCorrect": true,
-      "id": "52c1"
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for data binding.",
-      "isCorrect": false,
-      "id": "4afc"
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for routing configuration.",
-      "isCorrect": false,
-      "id": "4974"
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "41aa"
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to compile and serve an Angular application locally for development purposes.",
-      "isCorrect": true,
-      "id": "4c22"
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to deploy an Angular application to a production server.",
-      "isCorrect": false,
-      "id": "73d0"
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for data binding.",
-      "isCorrect": false,
-      "id": "c678"
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for event binding.",
-      "isCorrect": false,
-      "id": "a6f3"
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding combines property binding and event binding to automatically keep the view and the component data in sync.",
-      "isCorrect": true,
-      "id": "8d1a"
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for routing configuration.",
-      "isCorrect": false,
-      "id": "2ccd"
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for dependency injection.",
-      "isCorrect": false,
-      "id": "f31a"
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "cc6b"
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used to improve the performance of ngFor by identifying unique items in the iteration.",
-      "isCorrect": true,
-      "id": "8f52"
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for defining routes.",
-      "isCorrect": false,
-      "id": "dda7"
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for event binding.",
-      "isCorrect": false,
-      "id": "0a4e"
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for dependency injection.",
-      "isCorrect": false,
-      "id": "870a"
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the HttpClient module to send requests and receive responses from a server.",
-      "isCorrect": true,
-      "id": "882b"
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the ngFor directive.",
-      "isCorrect": false,
-      "id": "01bb"
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using dependency injection.",
-      "isCorrect": false,
-      "id": "4b08"
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the trackBy function.",
-      "isCorrect": false,
-      "id": "5967"
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for transforming and formatting data in templates.",
-      "isCorrect": true,
-      "id": "df2f"
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for defining routes.",
-      "isCorrect": false,
-      "id": "c337"
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for event binding.",
-      "isCorrect": false,
-      "id": "a6c0"
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for dependency injection.",
-      "isCorrect": false,
-      "id": "13c4"
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for loading modules only when they are needed, improving application performance.",
-      "isCorrect": true,
-      "id": "fdaf"
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "cd6d"
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for event binding.",
-      "isCorrect": false,
-      "id": "f695"
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
-      "isCorrect": false,
-      "id": "b5e7"
-    },
-    {
-      "questionId": 21,
-      "answerLabel": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "isCorrect": true,
-      "id": "f1b4"
-    },
-    {
-      "questionId": 21,
-      "answerLabel": "Lorem Ipsum is a programming language.",
-      "isCorrect": false,
-      "id": "f1b5"
-    },
-    {
-      "questionId": 22,
-      "answerLabel": "Lorem Ipsum comes from a Latin text by Cicero.",
-      "isCorrect": true,
-      "id": "f1b6"
-    },
-    {
-      "questionId": 22,
-      "answerLabel": "Lorem Ipsum comes from a Greek text by Aristotle.",
-      "isCorrect": false,
-      "id": "f1b7"
-    },
-    {
-      "questionId": 23,
-      "answerLabel": "Lorem Ipsum is used as placeholder text in design and publishing.",
-      "isCorrect": true,
-      "id": "f1b8"
-    },
-    {
-      "questionId": 23,
-      "answerLabel": "Lorem Ipsum is used as a programming language.",
-      "isCorrect": false,
-      "id": "f1b9"
-    },
-    {
-      "questionId": 24,
-      "answerLabel": "Lorem Ipsum is used as a placeholder text in design and publishing.",
-      "isCorrect": true,
-      "id": "f1ba"
-    },
-    {
-      "questionId": 24,
-      "answerLabel": "Lorem Ipsum is used as a programming language.",
-      "isCorrect": false,
-      "id": "f1bb"
+      "id": "j0i9"
     }
   ],
   "users": [
